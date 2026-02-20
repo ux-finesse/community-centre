@@ -1,4 +1,4 @@
-# Riverside Community Centre – Accessible Web Application
+# Riverside Community Centre: Accessible Web Application
 
 A fully accessible, multi-page community centre website prototype built to demonstrate **WCAG 2.2 Level AA compliance**. This project was developed as part of an academic dissertation exploring systematic approaches to web accessibility.
 
@@ -21,11 +21,11 @@ The Riverside Community Centre website serves as a functional prototype that sho
 
 ```
 /
-├── index.html       # Home page – hero section, feature cards, CTAs
-├── about.html       # About Us page – organisation background and values
-├── services.html    # Programs & Services – full service listings
+├── index.html       # Home page: hero section, feature cards, CTAs
+├── about.html       # About Us page: organisation background and values
+├── services.html    # Programs & Services: full service listings
 ├── form.html        # Registration/Membership form
-├── contact.html     # Contact page – address, phone, email, map
+├── contact.html     # Contact page: address, phone, email, map
 └── README.md        # Project documentation (this file)
 ```
 
@@ -46,9 +46,9 @@ The Riverside Community Centre website serves as a functional prototype that sho
 ## Accessibility Features
 
 ### Keyboard & Navigation
-- **Skip navigation link** – allows keyboard users to bypass repeated navigation and jump directly to main content
-- **Logical tab order** – all interactive elements follow a natural, sequential focus order
-- **Visible focus indicators** – 3px solid outline on all focusable elements, with sufficient colour contrast
+- **Skip navigation link**: allows keyboard users to bypass repeated navigation and jump directly to main content
+- **Logical tab order**: all interactive elements follow a natural, sequential focus order
+- **Visible focus indicators**: 3px solid outline on all focusable elements, with sufficient colour contrast
 
 ### Screen Reader Support
 - Semantic HTML5 landmark regions (`<header>`, `<nav>`, `<main>`, `<footer>`)
@@ -58,8 +58,8 @@ The Riverside Community Centre website serves as a functional prototype that sho
 - `aria-pressed` state on toggle buttons
 
 ### Visual Accessibility
-- **High contrast mode** – toggleable theme switching between standard and high-contrast colour schemes (black/white/yellow)
-- **Adjustable font size** – A−, A, A+ controls ranging from 12px to 24px
+- **High contrast mode**: toggleable theme switching between standard and high-contrast colour schemes (black/white/yellow)
+- **Adjustable font size**: A−, A, A+ controls ranging from 12px to 24px
 - User preferences persisted via `localStorage`
 - Minimum 4.5:1 colour contrast ratio for normal text; 3:1 for large text
 
@@ -92,7 +92,7 @@ No external frameworks or libraries are used. The site runs as static HTML with 
 ### Running Locally
 
 1. Clone or download the repository
-2. Open any `.html` file directly in a modern browser — no server required
+2. Open any `.html` file directly in a modern browser,  no server required
 3. Navigate to `http://localhost:8000` (if using a local server) or open `index.html` directly
 
 ### Browser Compatibility
